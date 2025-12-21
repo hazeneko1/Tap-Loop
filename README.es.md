@@ -1,4 +1,7 @@
 # Tap Loop
+
+[English](README.md) | [Español](README.es.md)
+
 ### Automatización inteligente por acciones en Android
 
 Tap Loop es una aplicación Android de automatización avanzada que permite crear **flujos de acciones configurables**, ejecutar **clics inteligentes**, gestionar **bucles**, y automatizar interacciones con otras aplicaciones **sin necesidad de root**.
