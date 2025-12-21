@@ -104,5 +104,11 @@ Tap Loop incluye un **botón flotante** con opciones avanzadas:
 - Muy útil cuando un botón no tiene texto visible
 
 Ejemplo:
-```text
+text
 CashoutActivity.NavIconBack
+
+📄 Licencia
+
+Este proyecto se distribuye bajo la licencia **GNU GPL v3**.
+
+Cualquier uso, modificación o distribución debe cumplir los términos de dicha licencia.
