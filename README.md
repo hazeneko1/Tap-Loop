@@ -1,50 +1,108 @@
-# Tap-Loop - Automatización inteligente por acciones
+# Tap Loop
+### Automatización inteligente por acciones en Android
 
-Tap Loop es una app de automatización potente y flexible que te permite crear secuencias de acciones automáticas en tu dispositivo Android, sin necesidad de root.
+Tap Loop es una aplicación Android de automatización avanzada que permite crear **flujos de acciones configurables**, ejecutar **clics inteligentes**, gestionar **bucles**, y automatizar interacciones con otras aplicaciones **sin necesidad de root**.
 
-Automatiza tareas repetitivas como:
+Pensada para usuarios avanzados, testing y automatización de tareas repetitivas.
 
-📱 Abrir y cerrar aplicaciones
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-❌ Cerrar anuncios de forma inteligente
+## ✨ Características principales
 
-👆 Hacer clic en botones o textos específicos
+- Apertura y cierre automático de aplicaciones
+- Clics automáticos por **texto, descripción o ID**
+- Cierre inteligente de anuncios
+- Ejecución de acciones en **bucle**
+- Control total del tiempo, frecuencia y repeticiones
+- Acciones encadenadas en flujos personalizables
+- Persistencia de datos incluso tras desinstalar la app
+- Herramientas de **debug visual** integradas
 
-🔁 Repetir acciones en bucle
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-⏱️ Configurar cada cuánto tiempo y cuántas veces se ejecuta una acción
 
-Todo se organiza en flujos de acciones fáciles de crear y modificar, para que tu móvil trabaje por ti.
+## 🧠 Concepto de funcionamiento
 
-🚀 Funciones principales
+Tap Loop funciona mediante **acciones secuenciales** que se ejecutan en orden.  
+Cada acción es configurable y puede repetirse de forma controlada.
 
-Automatización basada en acciones encadenadas
+Un flujo típico sería:
 
-Clicks por texto o elementos visibles en pantalla
+1. Abrir una aplicación
+2. Esperar unos segundos
+3. Pulsar un botón concreto por texto o descripción
+4. Repetir la acción en bucle
+5. Cerrar la aplicación
 
-Bucles y repeticiones configurables
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Control total del tiempo y número de repeticiones
 
-Compatible con la mayoría de apps
+## ⚙️ Configuración de acciones
 
-Interfaz simple, clara y directa
+Cada acción dispone de los siguientes parámetros (en segundos):
 
-🧠 Ideal para:
+1. **Delay inicial**  
+   Tiempo de espera antes de ejecutar la acción.
 
-Ahorrar tiempo en tareas repetitivas
+2. **Intervalo de repetición**  
+   Cada cuánto tiempo se repite la acción.
 
-Automatizar apps y procesos diarios
+3. **Número de repeticiones**  
+   Cuántas veces se ejecutará la acción.
 
-Testeo de aplicaciones
+4. **Doble ejecución por intento**  
+   Opción para ejecutar la acción **dos veces seguidas**.
 
-Usuarios avanzados y creadores de flujos personalizados
+5. **Delay de la segunda ejecución**  
+   Tiempo de espera entre la primera y la segunda ejecución.
 
-🔒 Permisos
+---
 
-Tap Loop utiliza el servicio de accesibilidad únicamente para ejecutar las acciones solicitadas por el usuario.
-No recopila datos personales ni información sensible.
+## 📦 Cómo obtener el nombre del paquete de una app
 
-✨ Tap Loop
+Para configurar correctamente una acción sobre otra aplicación:
 
-Configura una vez. Ejecuta en bucle. Olvídate del resto.
+1. Busca la app objetivo en **Google Play**
+2. Pulsa en **Compartir**
+3. Copia el enlace
+4. Al pegarlo, aparecerá el **nombre del paquete**  
+   (ejemplo: `com.example.app`)
+
+Ese nombre es el que debes usar en Tap Loop.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## 💾 Guardado y persistencia de datos
+
+Tap Loop permite guardar de forma persistente:
+
+- Nombre del paquete de la app
+- Valores de los campos de las acciones
+- Listas completas de acciones
+- Flujos configurados
+
+📌 **Los datos permanecen guardados incluso si desinstalas la app**.
+
+Para guardar:
+1. Pulsa el botón **Guardar**
+2. Accede desde el botón de **carpeta** o el **menú**
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## 🛠️ Botón flotante (Debug & Control)
+
+Tap Loop incluye un **botón flotante** con opciones avanzadas:
+
+### 🔍 Debug de pantalla
+- Realiza un **volcado completo** de todos los elementos visibles
+- Muestra:
+  - Texto
+  - Descripción
+  - ID interno
+- Muy útil cuando un botón no tiene texto visible
+
+Ejemplo:
+```text
+CashoutActivity.NavIconBack
