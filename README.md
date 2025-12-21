@@ -1,82 +1,115 @@
-Certainly! Since you mentioned this might be for a GitHub README.md, here is a version optimized with proper Markdown formatting to make it look professional and readable for developers.
+# Tap Loop
 
-Tap Loop: Smart Action-Based Automation for Android
-Tap Loop is an advanced Android automation application that allows you to create configurable action flows, execute smart clicks, manage loops, and automate interactions with other apps—all without requiring root access. It is designed for power users, software testing, and the automation of repetitive tasks.
+[English](README.md) | [Español](README.es.md)
 
-✨ Main Features
-Automatic app opening and closing: Seamlessly launch or exit target applications.
+### Intelligent Automation for Actions on Android
 
-Smart clicks: Trigger actions based on text, content description, or View ID.
+Tap Loop is an advanced Android automation app that allows you to create **configurable action flows**, execute **smart clicks**, manage **loops**, and automate interactions with other apps **without requiring root**.
 
-Intelligent Ad Closer: Automatically detects and dismisses advertisements using aggressive scoring and coordinate-based gestures.
+Designed for advanced users, testing, and repetitive task automation.
 
-Loop execution: Run actions or entire sequences repeatedly.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Full timing control: Customize frequency, delays, and repetition counts.
+## ✨ Key Features
 
-Customizable flows: Chain multiple actions into a sequential automation script.
+- Automatic opening and closing of apps  
+- Automatic clicks by **text, description, or ID**  
+- Smart ad closing  
+- Execution of actions in **loops**  
+- Full control over time, frequency, and repetitions  
+- Chained actions in customizable flows  
+- Data persistence even after uninstalling the app  
+- Integrated **visual debug** tools  
 
-Data persistence: Your configurations remain saved even after uninstalling the app.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Integrated visual debug tools: Built-in utilities to identify screen elements and internal IDs.
+## 🧠 How It Works
 
-🧠 Operating Concept
-Tap Loop operates using sequential actions executed in a specific order. Each action is fully configurable and can be repeated under controlled conditions.
+Tap Loop works through **sequential actions** executed in order.  
+Each action is configurable and can be repeated in a controlled manner.
 
 A typical flow would be:
 
-Open App: Launch a specific application.
+1. Open an app  
+2. Wait a few seconds  
+3. Tap a specific button by text or description  
+4. Repeat the action in a loop  
+5. Close the app  
 
-Wait: Pause for a few seconds to allow for loading.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Click: Press a specific button identified by text or description.
+## ⚙️ Action Configuration
 
-Loop: Repeat the action sequence a set number of times.
+Each action has the following parameters (in seconds):
 
-Close: Exit the application.
+1. **Initial Delay**  
+   Time to wait before executing the action.  
 
-⚙️ Action Configuration
-Each action includes the following parameters (measured in seconds):
+2. **Repeat Interval**  
+   How often the action is repeated.  
 
-Initial Delay: The waiting time before executing the action.
+3. **Number of Repetitions**  
+   How many times the action will run.  
 
-Repeat Interval: How often the action repeats.
+4. **Double Execution per Attempt**  
+   Option to execute the action **twice in a row**.  
 
-Number of Repetitions: How many times the action will be executed.
+5. **Second Execution Delay**  
+   Time to wait between the first and second execution.  
 
-Double Execution: An option to trigger the action twice in a row per attempt.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Second Execution Delay: The waiting time between the first and second execution of a double-tap.
+## 📦 How to Get an App’s Package Name
 
-📦 How to Find an App's Package Name
-To correctly configure an action for an external app:
+To correctly configure an action for another app:
 
-Find the target app on Google Play.
+1. Search for the target app on **Google Play**  
+2. Tap **Share**  
+3. Copy the link  
+4. The **package name** will appear when you paste it  
+   (example: `com.example.app`)  
 
-Tap on Share and Copy the link.
+This is the name you should use in Tap Loop.
 
-When you paste it, the package name will appear (example: com.example.app).
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Use this package name inside Tap Loop.
+## 💾 Data Saving & Persistence
 
-💾 Data Storage and Persistence
-Tap Loop allows you to persistently save app package names, individual action field values, and complete action lists.
+Tap Loop allows persistent saving of:
 
-📌 Note: Data remains saved even if you uninstall the app.
+- App package names  
+- Action field values  
+- Complete action lists  
+- Configured flows  
 
-To Save: Press the Save button.
+📌 **Data remains saved even if the app is uninstalled**.
 
-To Load: Access your flows via the folder icon or the main menu.
+To save:
 
-🛠️ Floating Button (Debug & Control)
-Tap Loop includes a floating overlay button with advanced options:
+1. Tap the **Save** button  
+2. Access saved data via the **folder button** or **menu**
 
-🔍 Screen Debugging
-Performs a full dump of all visible screen elements.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Displays: Text, Content Description, and Internal ID.
+## 🛠️ Floating Button (Debug & Control)
 
-Highly useful when a button has no visible text (Example ID: text CashoutActivity.NavIconBack).
+Tap Loop includes a **floating button** with advanced options:
 
-📄 License
-This project is distributed under the GNU General Public License v3.0 (GPL-3.0). Any use, modification, or distribution must comply with the terms of this license.
+### 🔍 Screen Debug
+
+- Performs a **complete dump** of all visible elements  
+- Shows:
+  - Text  
+  - Description  
+  - Internal ID  
+- Very useful when a button has no visible text  
+
+Example:  text CashoutActivity.NavIconBack
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 📄 License
+
+This project is distributed under the **GNU GPL v3 license**.  
+
+Any use, modification, or distribution must comply with the terms of this license.
