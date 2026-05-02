@@ -1,6 +1,6 @@
 # Tap Loop
 
-[![Download APK](https://img.shields.io/badge/Download-APK-green?style=for-the-badge&logo=android)](https://github.com/hazeneko1/Tap-Loop/releases/download/v2.3.1/app-release.apk)
+[![Download APK](https://img.shields.io/badge/Download-APK-green?style=for-the-badge&logo=android)](https://github.com/hazeneko1/Tap-Loop/releases/download/v2.3.2/app-release.apk)
 
 [English](README.md) | [Español](README.es.md)
 
